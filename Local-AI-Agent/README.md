@@ -1,56 +1,46 @@
-# Local AI Agent
+:
 
-A React-based local AI agent interface with an animated robot icon and multi-line command input. Commands are sent to a Zapier webhook, enabling seamless automation and integration with over 7,000 apps.
+🤖 AI Agent Automation with Zapier
 
-# Step 1: Clone the Repo
-📥 Learn how to easily download a GitHub repository in just 2 minutes with this guide: [https://youtu.be/m0wi6zf21FU](https://youtu.be/m0wi6zf21FU)
+This repository hosts an AI agent project integrated with Zapier to automate tasks, handle workflows, and provide interactive AI functionality. Built with HTML, CSS, and JavaScript, it offers a simple frontend interface while leveraging backend automation through Zapier.
 
-<img width="1156" alt="Local Agent" src="https://github.com/user-attachments/assets/bd345fcc-8879-47e4-a60f-ab67cf61c05a" />
+✨ Features
 
+Connects with multiple apps via Zapier for automation
 
-## 🎬 Setup Video
+Interactive frontend using HTML, CSS, and JS
 
-To get started, watch this quick walkthrough:
+AI-driven task processing and workflow handling
 
-👉 https://youtu.be/CuHwPZ1X2hc
+Easy to extend and customize
 
-## 🚀 Clone & Run
+🚀 Getting Started
 
-```bash
-git clone https://github.com/coffeefuelbump/Local-AI-Agent.git
-cd Local-AI-Agent
-npm install
-npm start
-```
+Clone the repository:
 
-# Step 2: Create Your Zapier AI Agent
-
-1. Go to [Zapier Agents](https://zapier.com/agents)  
-2. Enter the following **Prompt**:
-
-   > **You will receive an Agent Input Message, follow its command.**  
-   >  
-   > **Here are the actions you can execute:**  
-   > - Any Zapier app (e.g. Gmail, Slack, Trello…)  
-   > - Google Search  
-   > - Visit website  
-   > - …and more
-
-<img width="820" alt="Zap Agent" src="https://github.com/user-attachments/assets/f737f020-27df-41ee-a31e-83c0e67acc4b" />
+git clone <your-repo-url>
 
 
-3. Save your Agent.
+Open the project:
 
-# Step 3: Create Your Zapier Automation
+Launch index.html in your browser
 
-1. **Trigger**  
-   - App & Event: **Webhooks by Zapier → Catch Hook**  
-   - Copy the generated webhook URL.
+Customize & Connect Zapier:
 
-2. **Action**  
-   - Action: **Zapier Agent**  
-   - In the “Set up action” section, map the incoming payload (e.g. `{{command}}`) into the Agent’s **Agent Input Message** field.
+Add your Zapier API keys or credentials where required in app.js
 
-3. Turn your Zap **ON**.
+Start interacting with your AI agent
 
-<img width="796" alt="Zap Auto" src="https://github.com/user-attachments/assets/d44e08a7-c645-448c-8616-5afc8137f013" />
+🛠 Tech Stack
+
+HTML & CSS – Frontend interface
+
+JavaScript (app.js) – Logic and Zapier integration
+
+Zapier – Automation workflows
+
+📌 Notes
+
+Make sure all Zapier credentials are set properly in app.js
+
+Can be extended to include more AI capabilities or frontend features
